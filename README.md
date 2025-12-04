@@ -25,7 +25,7 @@ Project2 includes:
 • README.md
 
 Video
-
+https://laureauas-my.sharepoint.com/:v:/g/personal/nik00086_laurea_fi/IQAcve5gIlPRTLaHD-qE6GSJAbUmFJ9uGuD0jiqavlQV7Uo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dsAmmv
 
 
 Self-Reflection
