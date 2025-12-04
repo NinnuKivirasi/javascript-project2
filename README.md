@@ -10,6 +10,7 @@ Features
 • Easily see which movies are already in your collection
 • Close the movie details card with a single click
 • Movies are displayed as small, neatly arranged icons, just like a real movie shelf
+• Movies are sorted by year
 
 Installation & Running
 
@@ -25,7 +26,7 @@ Project2 includes:
 • README.md
 
 Video
-https://laureauas-my.sharepoint.com/:v:/g/personal/nik00086_laurea_fi/IQAcve5gIlPRTLaHD-qE6GSJAbUmFJ9uGuD0jiqavlQV7Uo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dsAmmv
+https://laureauas-my.sharepoint.com/:v:/g/personal/nik00086_laurea_fi/IQDOOqqZgxMPS59T9bJnNZ-MAVZcZRD7gEaW7dlZgkO2alc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GUD86k
 
 
 Self-Reflection

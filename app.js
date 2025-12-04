@@ -12,7 +12,11 @@ const collectionDiv = document.getElementById("collectionList") || document.getE
 const PLACEHOLDER_POSTER = "https://via.placeholder.com/300x450?text=No+Poster";
 
 let collection = JSON.parse(localStorage.getItem("movies")) || [];
-collection.sort((a, b) => a.Title.localeCompare(b.Title));
+collection.sort((a, b) => {
+    const yearA = parseInt(a.Year) || 0;
+    const yearB = parseInt(b.Year) || 0;
+    return yearA - yearB;
+});
 renderCollection();
 
 let searchTimeout = null; // debounce timeout
@@ -246,11 +250,17 @@ function addToCollection() {
         bluray: !!ownBluRay
     };
 
-    collection.push(movieToSave);
-    collection.sort((a, b) => a.Title.localeCompare(b.Title));
-    localStorage.setItem("movies", JSON.stringify(collection));
-    renderCollection();
+collection.push(movieToSave);
 
+
+collection.sort((a, b) => {
+    const yearA = parseInt(a.Year) || 0;
+    const yearB = parseInt(b.Year) || 0;
+    return yearA - yearB;
+});
+
+localStorage.setItem("movies", JSON.stringify(collection));
+renderCollection();
     if (addBtn) {
         addBtn.textContent = "Already in collection";
         addBtn.disabled = true;
@@ -269,8 +279,11 @@ function renderCollection() {
         return;
     }
 
-    collection.sort((a, b) => a.Title.localeCompare(b.Title));
-
+    collection.sort((a, b) => {
+        const yearA = parseInt(a.Year) || 0;
+        const yearB = parseInt(b.Year) || 0;
+        return yearA - yearB;
+    });
     collection.forEach((movie, index) => {
         const item = document.createElement("div");
         item.className = "collection-poster";
